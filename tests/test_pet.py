@@ -161,7 +161,7 @@ class TestPet:
             ("pending", 200),
             ("sold", 200),
             ("undefined_status", 400),
-            ("[]", 400)
+            ("", 400)
 
          ]
     )
