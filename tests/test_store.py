@@ -1,8 +1,6 @@
 import allure
 import jsonschema
 import requests
-import pytest
-
 from tests.schemas.inventory_schema import INVENTORY_SCHEMA
 from tests.schemas.order_schema import ORDER_SCHEMA
 
