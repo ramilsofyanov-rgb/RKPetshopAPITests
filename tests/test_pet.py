@@ -1,5 +1,3 @@
-from http.client import responses
-
 import allure
 import jsonschema
 import pytest
@@ -176,9 +174,6 @@ class TestPet:
             assert isinstance(response.json(),list)
         else:
             assert isinstance(response.json(), dict)
-
-
-
 
 
 
